@@ -55,12 +55,38 @@ void RResistors()
 
 void UNapatie()
 {
-
+    cout << "U = R * I (Uc = Rc * Ic)" << endl;
+    double R, I;
+    cin >> R >> I;
+    cout << "U = " << R * I << endl;
 }
 
 void IPrud()
 {
+    cout << "I cele -- 1" << endl;
+    cout << "In -- 2" << endl;
+    char sym;
+    cin >> sym;
 
+    if (sym == 1)
+    {
+        cout << "Enter U cele and Rc" << endl;
+        double U, Rc;
+        cin >> U >> Rc;
+        cout << "I = " << U / Rc;
+    }
+    else
+    {
+        cout << "For find In Enter I, R2, R1 " << endl;
+
+        cout << "          R2" << endl;
+        cout << "I1 = I * ---" << endl;
+        cout << "       R1 + R2" << endl;
+
+        double I, R1, R2;
+        cin >> I >> R2 >> R1;
+        cout << "In = " << I * (R1 / (R1 + R2));
+    }
 }
 
 int main()
