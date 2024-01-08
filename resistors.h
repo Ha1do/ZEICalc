@@ -71,9 +71,9 @@ void TrTringle()
     cout << "Enter R1, R2, R3: " << endl;
     cin >> R1 >> R2 >> R3;
 
-    cout << "Ra = " << (R1 * R2) / (R1 + R2 + R3);
-    cout << "Rb = " << (R1 * R3) / (R1 + R2 + R3);
-    cout << "Rc = " << (R2 * R3) / (R1 + R2 + R3);
+    cout << "Ra = " << (R1 * R2) / (R1 + R2 + R3) << endl;
+    cout << "Rb = " << (R1 * R3) / (R1 + R2 + R3) << endl;
+    cout << "Rc = " << (R2 * R3) / (R1 + R2 + R3) << endl;
 }
 
 void TrStar()
@@ -82,7 +82,7 @@ void TrStar()
     cout << "Enter Ra, Rb, Rc: " << endl;
     cin >> Ra >> Rb >> Rc;
 
-    cout << "R1 = " << Ra + Rb + (Ra * Rb) / Rc;
-    cout << "R2 = " << Ra + Rc + (Ra * Rc) / Rb;
-    cout << "R3 = " << Rb + Rc + (Rb * Rc) / Ra;
+    cout << "R1 = " << Ra + Rb + (Ra * Rb) / Rc << endl;
+    cout << "R2 = " << Ra + Rc + (Ra * Rc) / Rb << endl;
+    cout << "R3 = " << Rb + Rc + (Rb * Rc) / Ra << endl;
 }

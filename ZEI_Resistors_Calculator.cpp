@@ -43,8 +43,10 @@ void RResistors()
             break;
         case '3':
             TrTringle();
+            break;
         case '4':
             TrStar();
+            break;
         default:
             // code block
             break;
