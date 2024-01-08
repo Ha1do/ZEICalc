@@ -36,37 +36,18 @@ void RResistors()
     switch (sym)
     {
         case '1':
-            cout << "Сколько?: ";
-            int k;
-            cin >> k;
-            vector<int> arr;
-            for (int i = 0; i < k; i++)
-            {
-                int a;
-                cin >> a;
-                arr.push_back(a);
-            }
-            cout << posledovatelno(k, arr);
+            cout << posledovatelno();
             break;
         case '2':
-            сout << "Сколько?: ";
-            int k;
-            cin >> k;
-            vector<int> arr;
-            for (int i = 0; i < k; i++)
-            {
-                int a;
-                cin >> a;
-                arr.push_back(a);
-            }
-            cout << posledovatelno(k, arr);
+            cout << paralelno();
             break;
         case '3':
-            .
+            TrTringle();
         case '4':
-            ;
+            TrStar();
         default:
             // code block
+            break;
     }
 }
 
